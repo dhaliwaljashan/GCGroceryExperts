@@ -298,3 +298,377 @@
     font-weight: bold;
     margin:40px;
 }
+.h5txt span{
+    color:#666B73;
+    font-size:14px;
+    display:block;
+    margin:40px;
+}
+.button{
+    text-decoration: none;
+    font-size:14px;
+    color:white;
+    background-color: #E1251B;
+    padding:20px 40px;
+    border-radius: 10px;
+    margin:40px;
+}
+.button:hover{
+    font-weight: bold;
+}
+
+
+/* footer */
+
+#footer{
+    height:300px;
+    background-color: #000000;
+    text-align: center;
+}
+#footercontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#footerlogo{
+    background-image: url("asset/logo/1.png");
+    height:200px;
+    width:200px;
+    background-size: cover;
+    margin-top:55px;
+    margin-left:50px;
+}
+#footertext{
+    color:white;
+    margin:60px;
+    margin-left:30px;
+    margin-top:150px;
+}
+#email{
+    margin-top:20px;
+    color:#666B73;
+}
+
+/* About us and Conact Us Page */
+#hero-about, #hero-contact {
+    background-color: white;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 50px;
+    margin:150px 50px 70px 50px;
+    
+}
+#aboutcontent, #contactcontent {
+    padding: 20px;
+}
+#aboutcontent h2, #contactcontent h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#aboutcontent p, #contactcontent p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.bk{
+    height:40px;
+}
+.fcardImages{
+    width: auto;
+    height: auto;
+    max-height: 100px; /* Adjust the maximum height */
+    max-width: 56.25px;
+}
+
+/* category Page */
+ .category-container {
+     height:auto;
+     margin: 20px;
+     display: flex;
+ }
+ .category-section-1 {
+     width: 40%;
+     height:auto;
+     padding: 20px;
+     box-sizing: border-box;
+     color: white;
+     border:5px solid white;
+ }
+ .category-section-1 h2 {
+     margin-top: 0;
+     text-align: center;
+     font-weight: bold;
+ }
+ .category-card {
+     background-color: #fff;
+     padding: 30px;
+     width:80%;
+     margin:40px auto;
+     border-radius: 5px;
+     margin-bottom: 10px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+ }
+ .category-card:active{
+    border:2px solid red;
+ }
+ .category-card p{
+    color:black;
+    font-weight: bold;
+    margin-left:30px;
+ }
+ .category-card img {
+     width: 100%;
+     border-radius: 5px;
+ }
+ .category-section-2 {
+     width: 60%;
+     padding: 20px;
+     box-sizing: border-box;
+     margin-top:-20px;
+ }
+ .product-grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     grid-gap: 20px;
+ }
+ .product-card {
+     background-color: #fff;
+     padding: 20px;
+     border-radius: 5px;
+     height: 450px;
+     overflow:hidden;
+     text-align: center;
+ }
+ .wallmartcard{
+    box-shadow: 0 2px 4px #0071DC;
+ }
+ .metrocard{
+    box-shadow: 0 2px 4px #E1251B;
+ }
+ .noFrillscard{
+    box-shadow: 0 2px 4px #fee600;
+ }
+ .product-card img {
+     width: 100%;
+     border-radius: 5px;
+     margin-bottom: 10px;
+ }
+ .product-title {
+     font-weight: bold;
+     margin-bottom: 5px;
+     color:black;
+ }
+ .category-section-2 .gridtitle{
+    font-size: 20px;
+ }
+ .product-description {
+     margin-bottom: 5px;
+     color:#666B73;
+ }
+ .product-price {
+    font-weight: bold;
+ }
+
+ /* Wallmart Page  */
+ .wallmart-background{
+    background-color: #0071DC;
+    height:100px;
+ }
+ .wallmart-color{
+    background-color: #0071DC;
+ }
+ #wallmartlogo{
+    background-image: url(/asset/Walmart-Logo.jpg);
+    height:100px;
+    width: 250px;
+    background-size: cover;
+    margin:auto;
+ }
+
+ /* noFrills Page */
+.noFrills-background{
+    background-color: #fee600;
+    height:100px;
+}
+.noFrills-color{
+    background-color: #fee600;
+}
+#noFrillslogo{
+    background-image: url(asset/nofrills.jpg);
+    height:100px;
+    width: 250px;
+    background-size: cover;
+    margin:auto;
+    background-position-y: -7px;
+}
+ /* metro Page */
+ .metro-background{
+    background-color: #ef3123;
+    height:100px;
+}
+.metro-color{
+    background-color: #ef3123;
+}
+#metrologo{
+    background-image: url(asset/metro.jpg);
+    height:100px;
+    width: 250px;
+    background-size: cover;
+    margin:auto;
+    background-position-y: -47px;
+}
+
+/* Product Page */
+.product-main-card{
+    background-color: #fff;
+    height:97%;
+    width: 97%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+}
+.product-details{
+    width: 80%;
+}
+.product-title{
+    font-size: 35px;
+    margin:30px;
+}
+.product-description{
+    margin:30px;
+    font-size: 16px;
+}
+.product-rating{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px;
+}
+.product-rating span{
+    color:gold;
+    font-size: 25px;
+    font-weight: bold;
+}
+.product-price{
+    margin:30px;
+    color:black;
+    font-size: 20px;
+}
+.product-image{
+    background-size: cover ;
+    width: 50%;
+    height:400px;
+}
+.CTA {
+    margin:30px;
+    font-size: 20px;
+    font-weight: bold;
+    padding:20px;
+    text-align: center;
+    color:white;
+    margin-top:40px;
+    border-radius: 50px;
+}
+#CTA:active {
+    background-color: white;
+}
+#orangedish,#popcorn,#sunfloweroil,#pintobeans{
+    width: 50%;
+    height: 300px;
+}
+#Wbutter,#Wnutella,#Wtide,#Wtenderflake{
+    width: 50%;
+    height: 300px;
+}
+#NFmilkcake,#NFchips,#NFvegcube,#NFicecream{
+    width: 70%;
+    height:300px;
+}
+
+#orangedish{
+    background-image: url("./asset/metro/orangeDWM.jpg");
+}
+#popcorn{
+    background-image: url("./asset/metro/popcornM.jpg");
+}
+#sunfloweroil{
+    background-image: url("./asset/metro/sunfloweroilM.jpg");
+}
+#pintobeans{
+    background-image: url("./asset/metro/pintobeansM.jpg");
+}
+#Wtide{
+    background-image: url("/asset/wallmart/tidesoapW.webp");
+}
+#Wbutter{
+    background-image: url("/asset/wallmart/butterW.webp");
+}
+#Wnutella{
+    background-image: url("/asset/wallmart/nutellaW.webp");
+}
+#Wtenderflake{
+    background-image: url("/asset/wallmart/tenderflakeW.webp");
+}
+#NFmilkcake{
+    background-image: url("./asset/nofrills/milkcakeNF.png");
+}
+#NFchips{
+    background-image: url("./asset/nofrills/chipsNF.png");
+}
+#NFvegcube{
+    background-image: url("./asset/nofrills/vegcubesNF.png");
+}
+#NFicecream{
+    background-image: url("./asset/nofrills/icecreamNF.png");
+}
+
+/* DealSection */
+.deal-container{
+    margin:40px;
+    margin-top:100px;
+    background-color: white;
+    width: 60%;
+    margin: auto;
+    margin-top:80px;
+    height:auto;
+}
+.store-section .content{
+    width: 70%;
+    margin: auto;
+    color:#666B73;
+    font-size: 14px;
+}
+.store-section{
+    height: auto;
+    padding:10px;
+}
+.image{
+    margin:40px;
+}
+.store-section a{
+    text-decoration: none;
+}
+#wallmartImage,#metroImage,#noFrillsImage{
+    width: 300px;
+    height: 140px;
+    background-size: cover;
+    margin:auto;
+}
+#wallmartImage{
+    background-image: url("./asset/Walmart-Logo.jpg");
+}
+#metroImage{
+    background-image: url("./asset/logo-metro.png");
+}
+#noFrillsImage{
+    background-image: url("./asset/logo-noFrillls.png");
+}
+.content{
+    width: 100%;
+    text-align: center;
+}
+
