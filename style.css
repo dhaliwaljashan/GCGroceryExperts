@@ -18,7 +18,7 @@
 
 }
 #logo{
-    background-image: url("asset/logo/GC.png");
+    background-image: url("../asset/logo/GC.png");
     height:90px;
     width: 300px;
     background-size: cover;
@@ -137,19 +137,19 @@
     border-radius: 15px;
 }
 #metro{
-    background-image: url("asset/metro.jpg");
+    background-image: url("../asset/metro.jpg");
     background-size: 370px;
     background-position-y:-120px ; 
     background-position-x:15px ;
 }
 #wallmart{
-    background-image: url("asset/Walmart-Logo.jpg");
+    background-image: url("../asset/Walmart-Logo.jpg");
     background-size: 390px ;
     background-position-x: 8px;
     background-position-y: -40px ;
 }
 #nofrills{
-    background-image: url("asset/nofrills.jpg");
+    background-image: url("../asset/nofrills.jpg");
     background-size: cover;
     background-position-y: -65px;
 }
@@ -176,20 +176,20 @@
     column-gap: 50px;;
 }
 #img-card1{
-    background-image: url("asset/cards/1.png");
+    background-image: url("../asset/cards/1.png");
     background-size: cover;
 }
 #img-card2{
-    background-image: url("asset/cards/2.jpg");
+    background-image: url("../asset/cards/2.jpg");
     background-size: cover;
     background-position-y: -50px;
 }
 #img-card3{
-    background-image: url("asset/cards/3.jpg");
+    background-image: url("../asset/cards/3.jpg");
     background-size: cover;
 }
 #img-card4{
-    background-image: url("asset/cards/4.jpg");
+    background-image: url("../asset/cards/4.jpg");
     background-size: cover;
 }
 .card-img{
@@ -222,7 +222,7 @@
     width:800px;
 }
 #logo2{
-    background-image: url("asset/logo/1.png");
+    background-image: url("../asset/logo/1.png");
     height:150px;
     width: 150px;
     background-size: cover;
@@ -245,7 +245,7 @@
     color:#666B73;
 }
 #h4c2{
-    background-image: url("asset/customer-service.jpg");
+    background-image: url("../asset/customer-service.jpg");
     height:500px;
     width:300px;
     background-size: cover;
@@ -284,11 +284,11 @@
     border-radius:5px;
 }
 #img-h5card1{
-    background-image: url("asset/pickup.jpg");
+    background-image: url("../asset/pickup.jpg");
     background-size: cover;
 }
 #img-h5card2{
-    background-image: url("asset/delivery.jpg");
+    background-image: url("../asset/delivery.jpg");
     background-size: cover;
     width:400px;
 }
@@ -331,7 +331,7 @@
     justify-content: center;
 }
 #footerlogo{
-    background-image: url("asset/logo/1.png");
+    background-image: url("../asset/logo/1.png");
     height:200px;
     width:200px;
     background-size: cover;
@@ -481,7 +481,7 @@
     background-color: #0071DC;
  }
  #wallmartlogo{
-    background-image: url(/asset/Walmart-Logo.jpg);
+    background-image: url(../asset/Walmart-Logo.jpg);
     height:100px;
     width: 250px;
     background-size: cover;
@@ -497,7 +497,7 @@
     background-color: #fee600;
 }
 #noFrillslogo{
-    background-image: url(asset/nofrills.jpg);
+    background-image: url(../asset/nofrills.jpg);
     height:100px;
     width: 250px;
     background-size: cover;
@@ -513,7 +513,7 @@
     background-color: #ef3123;
 }
 #metrologo{
-    background-image: url(asset/metro.jpg);
+    background-image: url(../asset/metro.jpg);
     height:100px;
     width: 250px;
     background-size: cover;
@@ -590,16 +590,16 @@
 }
 
 #orangedish{
-    background-image: url("./asset/metro/orangeDWM.jpg");
+    background-image: url("../asset/metro/orangeDWM.jpg");
 }
 #popcorn{
-    background-image: url("./asset/metro/popcornM.jpg");
+    background-image: url("../asset/metro/popcornM.jpg");
 }
 #sunfloweroil{
-    background-image: url("./asset/metro/sunfloweroilM.jpg");
+    background-image: url("../asset/metro/sunfloweroilM.jpg");
 }
 #pintobeans{
-    background-image: url("./asset/metro/pintobeansM.jpg");
+    background-image: url("../asset/metro/pintobeansM.jpg");
 }
 #Wtide{
     background-image: url("../asset/wallmart/tidesoapW.webp");
@@ -614,16 +614,16 @@
     background-image: url("../asset/wallmart/tenderflakeW.webp");
 }
 #NFmilkcake{
-    background-image: url("./asset/nofrills/milkcakeNF.png");
+    background-image: url("../asset/nofrills/milkcakeNF.png");
 }
 #NFchips{
-    background-image: url("./asset/nofrills/chipsNF.png");
+    background-image: url("../asset/nofrills/chipsNF.png");
 }
 #NFvegcube{
-    background-image: url("./asset/nofrills/vegcubesNF.png");
+    background-image: url("../asset/nofrills/vegcubesNF.png");
 }
 #NFicecream{
-    background-image: url("./asset/nofrills/icecreamNF.png");
+    background-image: url("../asset/nofrills/icecreamNF.png");
 }
 
 /* DealSection */
@@ -659,13 +659,13 @@
     margin:auto;
 }
 #wallmartImage{
-    background-image: url("./asset/Walmart-Logo.jpg");
+    background-image: url("../asset/Walmart-Logo.jpg");
 }
 #metroImage{
-    background-image: url("./asset/logo-metro.png");
+    background-image: url("../asset/logo-metro.png");
 }
 #noFrillsImage{
-    background-image: url("./asset/logo-noFrillls.png");
+    background-image: url("../asset/logo-noFrillls.png");
 }
 .content{
     width: 100%;
