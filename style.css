@@ -18,7 +18,7 @@
 
 }
 #logo{
-    background-image: url("../asset/logo/GC.png");
+    background-image: url("./asset/logo/GC.png");
     height:90px;
     width: 300px;
     background-size: cover;
@@ -70,7 +70,7 @@
 /* Hero 1  */
 
 #hero1{
-    background-image: url("../asset/hero1.jpg");
+    background-image: url("./asset/hero1.jpg");
     background-size: cover;
     margin-top:90px;
 
@@ -137,19 +137,19 @@
     border-radius: 15px;
 }
 #metro{
-    background-image: url("../asset/metro.jpg");
+    background-image: url("./asset/metro.jpg");
     background-size: 370px;
     background-position-y:-120px ; 
     background-position-x:15px ;
 }
 #wallmart{
-    background-image: url("../asset/Walmart-Logo.jpg");
+    background-image: url("./asset/Walmart-Logo.jpg");
     background-size: 390px ;
     background-position-x: 8px;
     background-position-y: -40px ;
 }
 #nofrills{
-    background-image: url("../asset/nofrills.jpg");
+    background-image: url("./asset/nofrills.jpg");
     background-size: cover;
     background-position-y: -65px;
 }
@@ -176,20 +176,20 @@
     column-gap: 50px;;
 }
 #img-card1{
-    background-image: url("../asset/cards/1.png");
+    background-image: url("./asset/cards/1.png");
     background-size: cover;
 }
 #img-card2{
-    background-image: url("../asset/cards/2.jpg");
+    background-image: url("./asset/cards/2.jpg");
     background-size: cover;
     background-position-y: -50px;
 }
 #img-card3{
-    background-image: url("../asset/cards/3.jpg");
+    background-image: url("./asset/cards/3.jpg");
     background-size: cover;
 }
 #img-card4{
-    background-image: url("../asset/cards/4.jpg");
+    background-image: url("./asset/cards/4.jpg");
     background-size: cover;
 }
 .card-img{
@@ -222,7 +222,7 @@
     width:800px;
 }
 #logo2{
-    background-image: url("../asset/logo/1.png");
+    background-image: url("./asset/logo/1.png");
     height:150px;
     width: 150px;
     background-size: cover;
@@ -245,7 +245,7 @@
     color:#666B73;
 }
 #h4c2{
-    background-image: url("../asset/customer-service.jpg");
+    background-image: url("./asset/customer-service.jpg");
     height:500px;
     width:300px;
     background-size: cover;
@@ -284,11 +284,11 @@
     border-radius:5px;
 }
 #img-h5card1{
-    background-image: url("../asset/pickup.jpg");
+    background-image: url("./asset/pickup.jpg");
     background-size: cover;
 }
 #img-h5card2{
-    background-image: url("../asset/delivery.jpg");
+    background-image: url("./asset/delivery.jpg");
     background-size: cover;
     width:400px;
 }
@@ -331,7 +331,7 @@
     justify-content: center;
 }
 #footerlogo{
-    background-image: url("../asset/logo/1.png");
+    background-image: url("./asset/logo/1.png");
     height:200px;
     width:200px;
     background-size: cover;
