@@ -481,7 +481,7 @@
     background-color: #0071DC;
  }
  #wallmartlogo{
-    background-image: url(../asset/Walmart-Logo.jpg);
+    background-image: url(./asset/Walmart-Logo.jpg);
     height:100px;
     width: 250px;
     background-size: cover;
@@ -497,7 +497,7 @@
     background-color: #fee600;
 }
 #noFrillslogo{
-    background-image: url(../asset/nofrills.jpg);
+    background-image: url(./asset/nofrills.jpg);
     height:100px;
     width: 250px;
     background-size: cover;
@@ -513,7 +513,7 @@
     background-color: #ef3123;
 }
 #metrologo{
-    background-image: url(../asset/metro.jpg);
+    background-image: url(./asset/metro.jpg);
     height:100px;
     width: 250px;
     background-size: cover;
