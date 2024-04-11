@@ -590,40 +590,40 @@
 }
 
 #orangedish{
-    background-image: url("../asset/metro/orangeDWM.jpg");
+    background-image: url("./asset/metro/orangeDWM.jpg");
 }
 #popcorn{
-    background-image: url("../asset/metro/popcornM.jpg");
+    background-image: url("./asset/metro/popcornM.jpg");
 }
 #sunfloweroil{
-    background-image: url("../asset/metro/sunfloweroilM.jpg");
+    background-image: url("./asset/metro/sunfloweroilM.jpg");
 }
 #pintobeans{
-    background-image: url("../asset/metro/pintobeansM.jpg");
+    background-image: url("./asset/metro/pintobeansM.jpg");
 }
 #Wtide{
-    background-image: url("../asset/wallmart/tidesoapW.webp");
+    background-image: url("./asset/wallmart/tidesoapW.webp");
 }
 #Wbutter{
-    background-image: url("../asset/wallmart/butterW.webp");
+    background-image: url("./asset/wallmart/butterW.webp");
 }
 #Wnutella{
-    background-image: url("../asset/wallmart/nutellaW.webp");
+    background-image: url("./asset/wallmart/nutellaW.webp");
 }
 #Wtenderflake{
-    background-image: url("../asset/wallmart/tenderflakeW.webp");
+    background-image: url("./asset/wallmart/tenderflakeW.webp");
 }
 #NFmilkcake{
-    background-image: url("../asset/nofrills/milkcakeNF.png");
+    background-image: url("./asset/nofrills/milkcakeNF.png");
 }
 #NFchips{
-    background-image: url("../asset/nofrills/chipsNF.png");
+    background-image: url("./asset/nofrills/chipsNF.png");
 }
 #NFvegcube{
-    background-image: url("../asset/nofrills/vegcubesNF.png");
+    background-image: url("./asset/nofrills/vegcubesNF.png");
 }
 #NFicecream{
-    background-image: url("../asset/nofrills/icecreamNF.png");
+    background-image: url("./asset/nofrills/icecreamNF.png");
 }
 
 /* DealSection */
@@ -659,13 +659,13 @@
     margin:auto;
 }
 #wallmartImage{
-    background-image: url("../asset/Walmart-Logo.jpg");
+    background-image: url("./asset/Walmart-Logo.jpg");
 }
 #metroImage{
-    background-image: url("../asset/logo-metro.png");
+    background-image: url("./asset/logo-metro.png");
 }
 #noFrillsImage{
-    background-image: url("../asset/logo-noFrillls.png");
+    background-image: url("./asset/logo-noFrillls.png");
 }
 .content{
     width: 100%;
